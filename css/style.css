@@ -2,12 +2,12 @@
 
 body {
   background-color: black;
-  display: flex;
-  flex-direction: column;
 }
 
 .videoplayer {
   background-color: grey;
+  min-width: 90%;
+  width: 90%;
 }
 .controller{
   display: flex;
@@ -25,4 +25,9 @@ body {
   align-self: center;
 }
 .controls{
+}
+.container{
+  margin-left: 500px;
+  display: flex;
+  flex-direction: column;
 }
