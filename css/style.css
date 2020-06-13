@@ -1,0 +1,28 @@
+/* SOURCE: https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoplayer {
+  background-color: grey;
+}
+.controller{
+  display: flex;
+  flex-direction: row;
+}
+.play_pause{
+  width : 50px;
+  height : 30px;
+  margin: auto;
+}
+.scrubber{
+  width: 600px;
+}
+.container{
+  align-self: center;
+}
+.controls{
+}
